@@ -1,0 +1,6 @@
+<h1><p>Drag me!</p></h1>
+<script>
+document.addEventListener("dragstart", function(event) {
+    event.dataTransfer.setData("Text", "javascript:alert(document.domain)");
+});
+</script>
